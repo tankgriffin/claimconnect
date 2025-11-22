@@ -18,6 +18,7 @@ const Footer = memo(() => {
             <ul className="footer-links">
               <li><Link to="/motor-vehicle-accidents">Motor Vehicle Accidents</Link></li>
               <li><Link to="/workplace-injuries">Workplace Injuries</Link></li>
+              <li><Link to="/workers-compensation">Workers Compensation</Link></li>
               <li><Link to="/medical-malpractice">Medical Malpractice</Link></li>
               <li><Link to="/slip-fall-accidents">Slip & Fall</Link></li>
             </ul>

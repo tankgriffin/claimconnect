@@ -8,6 +8,7 @@ const HomePage = lazy(() => import('./pages/HomePage'))
 const MotorVehicleAccidentsPage = lazy(() => import('./pages/MotorVehicleAccidentsPage'))
 const WorkplaceInjuriesPage = lazy(() => import('./pages/WorkplaceInjuriesPage'))
 const MedicalMalpracticePage = lazy(() => import('./pages/MedicalMalpracticePage'))
+const WorkersCompensationPage = lazy(() => import('./pages/WorkersCompensationPage'))
 
 const LoadingFallback = () => (
   <div style={{
@@ -43,6 +44,7 @@ function App() {
             <Route path="/motor-vehicle-accidents" element={<MotorVehicleAccidentsPage />} />
             <Route path="/workplace-injuries" element={<WorkplaceInjuriesPage />} />
             <Route path="/medical-malpractice" element={<MedicalMalpracticePage />} />
+            <Route path="/workers-compensation" element={<WorkersCompensationPage />} />
             <Route path="/about" element={<ComingSoon page="About Page" />} />
             <Route path="/contact" element={<ComingSoon page="Contact Page" />} />
             <Route path="/privacy-policy" element={<ComingSoon page="Privacy Policy" />} />
